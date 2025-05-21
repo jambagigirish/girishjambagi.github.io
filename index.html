@@ -1,47 +1,76 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Girish Jambagi | Personal Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Girish Jambagi</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
-    header, footer { text-align: center; }
-    h1 { color: #333; }
-    .section { margin-top: 40px; }
-    ul { list-style-type: square; padding-left: 20px; }
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #333;
+    }
+    header, footer {
+      background: #f5f5f5;
+      padding: 2em;
+      text-align: center;
+    }
+    main {
+      padding: 2em;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    nav a {
+      margin: 0 1em;
+      text-decoration: none;
+      color: #007acc;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 2em;
+    }
+    h1, h2 {
+      color: #1a1a1a;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Girish Jambagi</h1>
-    <p>Senior Member of Technical Staff @ Oracle | Cloud & Security Enthusiast</p>
+    <p>Senior Member of Technical Staff at Oracle</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <div class="section">
-    <h2>About Me</h2>
-    <p>I'm a technical staff member at Oracle, currently working on Zero Trust Packer Routing. I specialize in cloud infrastructure, security automation, and system resilience.</p>
-  </div>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I’m a senior engineer at Oracle, working on Zero Trust Packer Routing and infrastructure automation. My focus areas include cloud security, distributed systems, and platform reliability.</p>
+      <p>I hold a Master's degree in Computer Science, and I’m passionate about building tools that scale securely and efficiently in the cloud.</p>
+    </section>
 
-  <div class="section">
-    <h2>Resume</h2>
-    <p><a href="Girish_Jambagi_resume.pdf" target="_blank">Download my resume (PDF)</a></p>
-  </div>
+    <section id="projects">
+      <h2>Selected Projects</h2>
+      <ul>
+        <li><a href="https://github.com/jambagigirish/Natural-Language-Processing" target="_blank">Automatic Test Grader</a></li>
+        <li><a href="https://github.com/jambagigirish/Sentiment-Analysis" target="_blank">Sentiment-Analysis</a></li>
+        <li><a href="https://github.com/jambagigirish/Programming" target="_blank">C++ Interview code</a></li>
+      </ul>
+    </section>
 
-  <div class="section">
-    <h2>Projects</h2>
-    <ul>
-      <li><a href="https://github.com/jambagigirish/Natural-Language-Processing" target="_blank">Automatic Test Grader</a></li>
-      <li><a href="https://github.com/jambagigirish/Sentiment-Analysis" target="_blank">Sentiment-Analysis</a></li>
-      <li><a href="https://github.com/jambagigirish/Programming" target="_blank">C++ Interview code</a></li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>Contact</h2>
-    <p>Email: jambagigirish@gmail.com</p>
-    <p>Phone: (312) 972-8447</p>
-  </div>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:jambagigirish@gmail.com">jambagigirish@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/jambagigirish" target="_blank">jambagigirish</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/girish-jambagi/" target="_blank">girish-jambagi</a></p>
+    </section>
+  </main>
 
   <footer>
     <p>&copy; 2025 Girish Jambagi</p>
